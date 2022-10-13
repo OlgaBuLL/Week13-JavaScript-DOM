@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./greeting-input.css">
+    <title>Greeting</title>
+</head>
+
+<body>
+    <!-- ПРИВЕТСТВИЕ -->
+    <div class="greeting-section">
+        <h2>GREETING WITH INPUT</h2>
+
+        <input type="text" placeholder="Enter your name" id="userName" onclick="clearMe()">
+        <br>
+        <button class="button" onclick="sayHi()">CLICK</button>
+        <br>
+        <input type="text" placeholder="Here I'll say Hi to you" id="result">
+    </div><br>
+    <br>
+
+
+    <!-- КАЛЬКУЛЯТОР -->
+    <div class="calculator-section">
+        <h2>CALCULATOR</h2>
+        <input type="text" placeholder="Введите первое число" id="first-number">
+        <br>
+        <input type="text" placeholder="Введите второе число" id="second-number">
+        <br>
+        <button class="button" onclick="sum()">Сложение</button>
+        <button class="button" onclick="minus()">Вычитание</button>
+        <button class="button" onclick="times()">Умножение</button>
+        <button class="button" onclick="divide()">Деление</button>
+
+        <br>
+        <input type="text" placeholder="Здесь будет результат" id="result1">
+    </div>
+    <br>
+    <br>
+
+    <!-- ПРОБНЫЕ ДИВЫ -->
+    <div class="div-section">
+        <h2>TEST DIV</h2>
+        <div class="box">
+            <div class="testdiv border" onclick="changeColor(this)">random text</div>
+            <div class="testdiv border" onclick="changeColor(this)">random text</div>
+            <div class="testdiv border" onclick="changeColor(this)">random text</div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <!-- ГАЛЕРЕЯ -->
+    <div class="gallery-section">
+        <h2>GALLERY</h2>
+        <div class="container">
+            <button class="button" onclick="backward()">Назад</button>
+            <img src="https://3.404content.com/1/F1/66/1734598574859879492/fullsize.jpg" alt="dalmatian" id="dalmatian"
+                onclick="changeMe()">
+            <button class="button" onclick="forward()">Вперед</button>
+        </div>
+
+
+        <!-- <img src="https://66.media.tumblr.com/99c57e1fd82934cd5586dfa1dcd3aa71/tumblr_pewzvc8XTE1xnqe5bo5_500.jpg"
+            alt="corgi"></div>
+    <div>
+        <img src="https://4438139256a845dd6a17-de5ff4df048baa763f3c53e8ffdabaf9.ssl.cf1.rackcdn.com/64727368.jpg"
+            alt="tacsa"></div>
+    <div>
+        <img src="https://barktime.files.wordpress.com/2014/05/newfoundland-puppy-8-weeks-old.jpg?w=500"
+            alt="newfoundland"></div>
+    <div>
+        <img src="https://p4.tabor.ru/feed/2018-11-04/16984593/1204658_760x500.jpg" alt="pitbull"></div> -->
+
+
+    </div>
+
+    <script src="greeting-input.js"></script>
+</body>
+
+</html>

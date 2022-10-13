@@ -1,0 +1,72 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: rgb(17, 61, 62);
+  font-size: 24px;
+  color: aliceblue;
+  margin: 0 auto;
+  text-align: center;
+}
+.greeting-section {
+  width: fit-content;
+  margin: 100px auto 50px;
+}
+.button {
+  margin: 15px auto;
+  padding: 0.8rem 1.5rem;
+  font-size: 20px;
+  background: black;
+  color: antiquewhite;
+  border-radius: 10px;
+  border: 2px solid antiquewhite;
+}
+.button:hover {
+  background: rgb(45, 45, 45);
+}
+input {
+  text-align: center;
+  width: 320px;
+  height: 50px;
+  margin: 10px auto;
+  color: antiquewhite;
+  border-radius: 10px;
+  border: 2px solid antiquewhite;
+  background: rgb(2, 29, 38);
+  font-size: 20px;
+}
+input:hover {
+  transform: scale(1.15);
+}
+.calculator-section {
+  width: fit-content;
+  margin: 50px auto;
+}
+.div-section {
+  width: fit-content;
+  margin: 50px auto;
+}
+
+.box {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+
+.testdiv {
+  width: 200px;
+  height: 200px;
+}
+
+.border {
+  border: 1px dashed antiquewhite;
+}
+
+.selected {
+  background: plum;
+  border: 5px solid rgb(145, 78, 145);
+}
+
+div img {
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+}
